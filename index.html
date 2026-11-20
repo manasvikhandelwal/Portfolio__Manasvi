@@ -1,0 +1,760 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta
+    name="description"
+    content="Manasvi Khandelwal's portfolio showcasing UI/UX design, frontend development and digital product case studies."
+  />
+
+  <meta name="theme-color" content="#09080d" />
+
+  <title>Manasvi Khandelwal | Portfolio</title>
+
+  <link rel="stylesheet" href="/style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap"
+    rel="stylesheet"
+  />
+
+</head>
+
+<body>
+
+  <!-- ==========================================
+       GATE INTRO
+  =========================================== -->
+
+  <div id="gate">
+
+    <div class="gate-glow"></div>
+
+    <div class="door-frame">
+
+      <div class="door door-left">
+        <div class="door-handle"></div>
+      </div>
+
+      <div class="door door-right">
+        <div class="door-handle"></div>
+      </div>
+
+    </div>
+
+    <div class="gate-content">
+
+      <p class="text-xs tracking-[.45em] text-purple-200 mb-5">
+        WELCOME TO MY WORLD
+      </p>
+
+      <h1 class="serif text-3xl sm:text-5xl tracking-wide mb-4">
+        MANASVI KHANDELWAL
+      </h1>
+
+      <p class="text-xs sm:text-sm tracking-[.3em] text-purple-200/70 mb-10">
+        A CREATIVE DIGITAL SPACE
+      </p>
+
+      <button
+        class="enter-btn"
+        id="enter-portfolio"
+        type="button"
+      >
+        ENTER ↗
+      </button>
+
+    </div>
+
+  </div>
+
+
+  <!-- ==========================================
+       MAIN WEBSITE
+  =========================================== -->
+
+  <main id="portfolio">
+
+
+    <!-- ==========================================
+         NAVIGATION
+    =========================================== -->
+
+    <nav
+      class="fixed top-0 left-0 w-full z-40 px-[6%] py-6 flex justify-between items-center bg-[#09080d]/80 backdrop-blur-lg"
+      aria-label="Main navigation"
+    >
+
+      <a
+        href="#home"
+        class="text-sm tracking-[.18em] font-semibold"
+      >
+        MANASVI KHANDELWAL
+      </a>
+
+
+      <div class="hidden sm:flex gap-8 text-xs tracking-widest">
+
+        <a class="nav-link" href="#about">
+          ABOUT
+        </a>
+
+        <a class="nav-link" href="#work">
+          WORK
+        </a>
+
+        <a class="nav-link" href="#contact">
+          CONTACT
+        </a>
+
+      </div>
+
+
+      <a
+        href="#contact"
+        class="text-xs border border-purple-300/50 rounded-full px-4 py-2 hover:bg-purple-300 hover:text-black transition"
+      >
+        LET'S TALK ↗
+      </a>
+
+    </nav>
+
+
+    <!-- ==========================================
+         HERO SECTION
+    =========================================== -->
+
+    <section
+      id="home"
+      class="hero min-h-screen px-[8%] pt-36 pb-20 flex items-center"
+    >
+
+      <div class="max-w-7xl mx-auto w-full grid lg:grid-cols-[1.4fr_.6fr] gap-16 items-center">
+
+
+        <!-- LEFT CONTENT -->
+
+        <div class="reveal">
+
+          <p class="text-xs tracking-[.35em] text-purple-200 mb-8">
+            UI/UX DESIGNER & FRONTEND DEVELOPER
+          </p>
+
+
+          <h1 class="hero-title font-medium mb-8">
+
+            DESIGNING<br>
+
+            <span class="lavender serif italic">
+              DIGITAL
+            </span><br>
+
+            EXPERIENCES.
+
+          </h1>
+
+
+          <p class="text-gray-400 max-w-lg leading-8 text-sm sm:text-base mb-10">
+
+            I'm Manasvi — a UI/UX designer and frontend developer
+            passionate about creating intuitive, meaningful and
+            visually engaging digital experiences.
+
+          </p>
+
+
+          <a
+            href="#work"
+            class="inline-flex items-center gap-4 border border-purple-300/60 rounded-full px-7 py-4 text-xs tracking-widest hover:bg-purple-300 hover:text-black transition"
+          >
+            EXPLORE MY WORK
+            <span aria-hidden="true">↗</span>
+          </a>
+
+        </div>
+
+
+        <!-- RIGHT VISUAL -->
+
+        <div class="flex justify-center items-center reveal">
+
+          <div class="text-center">
+
+            <div class="saturn-wrap mx-auto mb-9">
+
+              <div class="orb"></div>
+
+              <div class="saturn-orbit">
+
+                <span class="orbit-word word-one">
+                  DESIGN
+                </span>
+
+                <span class="orbit-word word-two">
+                  DEVELOP
+                </span>
+
+                <span class="orbit-word word-three">
+                  BUILD
+                </span>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         ABOUT SECTION
+    =========================================== -->
+
+    <section id="about" class="section">
+
+      <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-16">
+
+
+        <!-- LEFT SIDE -->
+
+        <div class="reveal">
+
+          <h2 class="serif text-5xl sm:text-6xl leading-tight">
+
+            A little about<br>
+
+            <span class="lavender italic">
+              who I am.
+            </span>
+
+          </h2>
+
+
+          <div class="about-visual">
+
+            <img
+              src="/about-design.png"
+              alt="UI UX creative design workspace"
+              loading="lazy"
+            />
+
+          </div>
+
+        </div>
+
+
+
+        <!-- RIGHT SIDE -->
+
+        <div class="reveal">
+
+          <p class="text-gray-300 leading-8 text-base mb-6">
+
+            I'm Manasvi Khandelwal, a creative professional with a background
+            in software development and digital design. I'm passionate about
+            creating clean, intuitive and engaging digital experiences,
+            combining creativity, design thinking and technology with a focus
+            on UI/UX design and frontend development.
+
+          </p>
+
+
+          <p class="text-gray-400 leading-8 text-sm mb-8">
+
+            I enjoy combining creativity with technology, understanding
+            user needs and turning ideas into meaningful digital products.
+            I'm always exploring new tools, learning new skills and
+            finding better ways to bring ideas to life.
+
+          </p>
+
+
+
+          <!-- SKILLS -->
+
+          <div class="border-t border-white/10 pt-7 mb-8">
+
+            <p class="text-xs tracking-[.3em] text-purple-300 mb-5">
+              SKILLS
+            </p>
+
+
+            <div class="flex flex-wrap gap-3">
+
+              <span class="skill-tag">UI/UX Design</span>
+
+              <span class="skill-tag">Wireframing & Prototyping</span>
+
+              <span class="skill-tag">Design Systems</span>
+
+              <span class="skill-tag">Visual Design</span>
+
+              <span class="skill-tag">User Flows</span>
+
+              <span class="skill-tag">HTML</span>
+
+              <span class="skill-tag">CSS</span>
+
+              <span class="skill-tag">JavaScript</span>
+
+              <span class="skill-tag">React</span>
+
+              <span class="skill-tag">TypeScript</span>
+
+              <span class="skill-tag">Responsive Design</span>
+
+              <span class="skill-tag">Git & GitHub</span>
+
+            </div>
+
+          </div>
+
+
+
+          <!-- SOFTWARE & TOOLS -->
+
+          <div class="border-t border-white/10 pt-7">
+
+            <p class="text-xs tracking-[.3em] text-purple-300 mb-5">
+              SOFTWARE & TOOLS
+            </p>
+
+
+            <div class="flex flex-wrap gap-3">
+
+              <span class="skill-tag">Figma</span>
+
+              <span class="skill-tag">Framer</span>
+
+              <span class="skill-tag">Adobe Illustrator</span>
+
+              <span class="skill-tag">Adobe Photoshop</span>
+
+              <span class="skill-tag">Jira</span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         WORK / PROJECTS SECTION
+    =========================================== -->
+
+    <section id="work" class="section">
+
+      <div class="max-w-6xl mx-auto">
+
+
+        <!-- SECTION HEADING -->
+
+        <div class="flex flex-col sm:flex-row justify-between sm:items-end gap-6 mb-14 reveal">
+
+          <div>
+
+            <h2 class="serif text-5xl sm:text-6xl">
+
+              Things I've
+              <span class="lavender italic">
+                created.
+              </span>
+
+            </h2>
+
+          </div>
+
+
+          <p class="text-gray-500 text-sm max-w-xs">
+
+            A collection of projects exploring design, usability
+            and digital experiences.
+
+          </p>
+
+        </div>
+
+
+
+        <!-- PROJECT GRID -->
+
+        <div class="grid md:grid-cols-2 gap-7">
+
+
+
+          <!-- ======================================
+               PROJECT 1: BANKING APP
+          ======================================= -->
+
+          <article
+            class="project-card rounded-2xl overflow-hidden reveal banking-project-card"
+            role="button"
+            tabindex="0"
+            data-case-study="banking"
+            aria-haspopup="dialog"
+            aria-controls="case-study-overlay"
+            aria-label="Open Banking App – Customer Onboarding case study"
+          >
+
+            <div class="project-visual flex items-center justify-center p-8">
+
+              <div class="banking-preview">
+
+                <img
+                  src="./images/banking/welcome.png"
+                  alt="Banking App welcome screen preview"
+                  loading="lazy"
+                />
+
+              </div>
+
+            </div>
+
+
+            <div class="p-7">
+
+              <p class="text-xs tracking-widest text-purple-300 mb-3">
+                UI/UX DESIGN · MOBILE APP
+              </p>
+
+
+              <h3 class="serif text-3xl mb-3">
+                Banking App – Customer Onboarding
+              </h3>
+
+
+              <p class="text-sm text-gray-400 leading-7 mb-6">
+
+                A user-friendly mobile banking onboarding experience designed
+                to simplify account registration, identity verification and
+                the overall first-time user journey.
+
+              </p>
+
+
+              <span class="text-xs tracking-widest text-purple-200">
+
+                EXPLORE CASE STUDY
+                <span aria-hidden="true">↗</span>
+
+              </span>
+
+            </div>
+
+          </article>
+
+
+          <!-- ======================================
+               PROJECT 2: FOOD DELIVERY APP
+          ======================================= -->
+
+          <article
+            class="project-card rounded-2xl overflow-hidden reveal case-study-project-card"
+            role="button"
+            tabindex="0"
+            data-case-study="food-delivery"
+            aria-haspopup="dialog"
+            aria-controls="case-study-overlay"
+            aria-label="Open Food Delivery App UX Audit case study"
+          >
+
+            <div class="project-visual flex items-center justify-center p-8">
+
+              <div class="banking-preview food-preview">
+
+                <img
+                  src="./images/Food Delivery/01 – Home.png"
+                  alt="Food Delivery App home screen preview"
+                  loading="lazy"
+                />
+
+              </div>
+
+            </div>
+
+
+            <div class="p-7">
+
+              <p class="text-xs tracking-widest text-purple-300 mb-3">
+                UI/UX DESIGN · BUSINESS ANALYSIS
+              </p>
+
+
+              <h3 class="serif text-3xl mb-3">
+                Food Delivery App – UX Audit &amp; Improvement Recommendations
+              </h3>
+
+
+              <p class="text-sm text-gray-400 leading-7 mb-6">
+
+                An ordering and checkout experience review, presenting
+                the supplied app screens and usability review considerations.
+
+              </p>
+
+
+              <span class="text-xs tracking-widest text-purple-200">
+
+                EXPLORE CASE STUDY
+                <span aria-hidden="true">↗</span>
+
+              </span>
+
+            </div>
+
+          </article>
+
+          <!-- ======================================
+               PROJECT 3: B2B APPS MARKETPLACE
+          ======================================= -->
+
+          <article
+            class="project-card rounded-2xl overflow-hidden reveal case-study-project-card"
+            role="button"
+            tabindex="0"
+            data-case-study="b2b-marketplace"
+            aria-haspopup="dialog"
+            aria-controls="case-study-overlay"
+            aria-label="Open B2B Apps Marketplace – Vendor & Buyer Platform case study"
+          >
+
+            <div class="project-visual flex items-center justify-center p-8">
+
+              <div class="b2b-marketplace-preview">
+
+                <img
+                  src="./images/B2B apps marketplace/01 · Marketplace home.png"
+                  alt="B2B Apps Marketplace home screen preview"
+                  loading="lazy"
+                />
+
+              </div>
+
+            </div>
+
+
+            <div class="p-7">
+
+              <p class="text-xs tracking-widest text-purple-300 mb-3">
+                UI/UX DESIGN · B2B PLATFORM
+              </p>
+
+
+              <h3 class="serif text-3xl mb-3">
+                B2B Apps Marketplace – Vendor &amp; Buyer Platform
+              </h3>
+
+
+              <p class="text-sm text-gray-400 leading-7 mb-6">
+
+                A B2B platform where vendors can submit business applications
+                and buyers can explore and discover useful apps. Admins can
+                review applications and approve, reject, or request changes.
+
+              </p>
+
+
+              <span class="text-xs tracking-widest text-purple-200">
+
+                EXPLORE CASE STUDY
+                <span aria-hidden="true">↗</span>
+
+              </span>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         CONTACT SECTION
+    =========================================== -->
+
+    <section id="contact" class="section">
+
+      <div class="max-w-6xl mx-auto text-center reveal">
+
+
+        <p class="text-xs tracking-[.3em] text-purple-300 mb-7">
+          GET IN TOUCH
+        </p>
+
+
+        <h2 class="serif text-5xl sm:text-7xl leading-tight mb-7">
+
+          Have a project<br>
+
+          <span class="lavender italic">
+            in mind?
+          </span>
+
+        </h2>
+
+
+        <p class="text-gray-400 text-sm sm:text-base mb-10">
+
+          Let's connect and create something meaningful together.
+
+        </p>
+
+
+
+        <div class="flex flex-wrap justify-center items-center gap-4">
+
+
+          <a
+            href="mailto:khandelwal.manasvi20@gmail.com"
+            class="border border-purple-300 rounded-full px-7 py-4 text-sm text-purple-100 hover:bg-purple-300 hover:text-black transition"
+          >
+
+            khandelwal.manasvi20@gmail.com ↗
+
+          </a>
+
+
+
+          <button
+            id="copy-email"
+            type="button"
+            class="border border-white/20 rounded-full px-6 py-4 text-xs tracking-widest text-gray-300 hover:border-purple-300 hover:text-purple-200 transition"
+          >
+
+            COPY
+
+          </button>
+
+
+        </div>
+
+
+
+        <div class="flex justify-center mt-14 text-xs tracking-widest text-gray-400">
+
+          <a
+            href="https://www.linkedin.com/in/manasvi-khandelwal-606905211/"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hover:text-purple-200 transition"
+          >
+
+            LINKEDIN ↗
+
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ==========================================
+         FOOTER
+    =========================================== -->
+
+    <footer class="border-t border-white/10 px-[8%] py-7 flex flex-col sm:flex-row justify-between gap-4 text-xs text-gray-500">
+
+      <p>
+        © 2026 MANASVI KHANDELWAL
+      </p>
+
+
+    </footer>
+
+
+  </main>
+
+
+
+  <!-- ==========================================
+       CASE STUDY MODAL
+  =========================================== -->
+
+  <div
+    class="case-study-overlay"
+    id="case-study-overlay"
+    aria-hidden="true"
+  >
+
+    <section
+      class="case-study-modal"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="case-study-title"
+      aria-describedby="case-study-intro"
+      tabindex="-1"
+    >
+
+
+      <!-- CLOSE BUTTON -->
+
+      <button
+        class="case-study-close"
+        type="button"
+        aria-label="Close case study"
+      >
+
+        <span aria-hidden="true">
+          &times;
+        </span>
+
+      </button>
+
+
+      <!-- DYNAMIC CASE STUDY CONTENT -->
+
+      <div
+        class="case-study-content"
+        id="case-study-content"
+      ></div>
+
+
+    </section>
+
+  </div>
+
+
+
+  <!-- NAVIGATION LIGHT SWEEP -->
+
+  <div id="light-sweep"></div>
+
+
+
+  <!-- JAVASCRIPT -->
+
+  <script type="module" src="/script.js"></script>
+
+</body>
+
+</html>
